@@ -1,4 +1,4 @@
-package modegenericinterface
+package modegeneric
 
 import (
 	"io"
