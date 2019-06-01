@@ -3,7 +3,7 @@ package modegeneric
 import (
 	"io"
 
-	modehttp "github.com/johnrichardrinehart/mode-http"
+	modehttp "github.com/johnrichardrinehart/modehttp"
 )
 
 // Application provides a common interface for sending commands using the MODE network APIs. Conventionally, we refer to all senders of commands as `applications` - this is the origin of the name. Currently, the MODE network APIs are provided over either HTTP(s)/WebSocket or MQTT.

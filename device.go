@@ -3,7 +3,7 @@ package modegeneric
 import (
 	"io"
 
-	modehttp "github.com/johnrichardrinehart/mode-http"
+	modehttp "github.com/johnrichardrinehart/modehttp"
 )
 
 // Device provides a common interface for simulating a device connected to the MODE network. Conventionally, we refer to all receivers of commands and emitters of events as `devices` - this is the origin of the name. Currently, the MODE network APIs are provided over either HTTP(s)/WebSocket or MQTT.
